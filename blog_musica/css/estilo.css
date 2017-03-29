@@ -1,0 +1,30 @@
+body{
+background-color: gray;
+}
+.head {
+  background: #082D5E;
+  min-height: 80px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+}
+.container-fluid{
+margin-top: 64px;
+}
+img{
+width:70%;
+}
+.redes img{
+width: 15%;
+padding: 1%;
+margin-right: 5px;
+margin-top:55%;
+}
+.margen_nav{
+margin: 0px auto;
+}
+.barra{
+margin-left: 1%;
+margin-right: 1%;
+}
+@media (max-width: 770px) {
