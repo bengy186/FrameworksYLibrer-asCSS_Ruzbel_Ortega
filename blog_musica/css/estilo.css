@@ -8,9 +8,29 @@ background-color: gray;
   border: 1px solid black;
 
 }
-.container-fluid{
-margin-top: 64px;
+nav{
+margin-top: 5px;
 }
+.navbar-inverse  a{
+ color: white!important;
+}
+nav.navbar-inverse {
+
+    background-color: #black;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.navbar-inverse  .active  a,
+.navbar-inverse   .active  a:focus {
+      color: #000 !important;
+      background: yellow !important;
+ }
+ .navbar-inverse  a:hover,
+ .navbar-inverse  a:focus{
+    color: #000;
+    background: #082D5E !important;
+  }
+
 img{
 width:70%;
 }
@@ -19,12 +39,48 @@ width: 15%;
 padding: 1%;
 margin-right: 5px;
 margin-top:55%;
+
 }
-.margen_nav{
-margin: 0px auto;
+  hr{
+    height: 1px;
+    background-color: #32d7e6;
+  }
+  .contenedor{
+
+    margin-top: 5px;
+
+    background-color: #E3DEE4;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .est_letra{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+  }
+  .glyphicon_size {
+      font-size: 30px;
+      padding: 10px;
+      padding-bottom: 15px;
+  }
+.input-group{
+margin: 20px;
+padding: 5px;
 }
-.barra{
-margin-left: 1%;
-margin-right: 1%;
+#comentario{
+margin-top: 10px;
 }
+.cont_costado{
+margin: 0px 20px 0px 50px;
+
+}
+.costadod li a{
+ font-size: 1.5rem;
+  border-bottom: 1px solid black;
+  color: black !important;
+}
+  .imagenes{
+    width: 100%;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+  }
 @media (max-width: 770px) {
