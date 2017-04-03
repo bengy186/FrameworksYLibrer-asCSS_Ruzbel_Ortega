@@ -1,0 +1,29 @@
+body{
+    background: url('../../blog_turismo/imagen/fondo.png') no-repeat center center;
+    background-size:100% 100%;
+   background-attachment: fixed;
+}
+  h4{font-family: 'Spirax', cursive;}
+    .margen{
+    margin-top: 10px;
+  }
+.contenedor{
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+padding-top: 20px!important;
+margin-bottom: 50px;
+}
+img{
+width: 85%;
+}
+.boca{
+width: 80%;
+}
+.contenedor2{
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+padding-top: 20px!important;
+margin:0px 5%;
+margin-bottom: 50px;
+
+}
